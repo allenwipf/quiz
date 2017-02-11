@@ -15,7 +15,10 @@ window.addEventListener("load", function () {
 
 })
 
-var questions = ["What is the first letter of alphebet?" , "What is 1 + 1?" , "Does thought require language?"];
+var questions = ["What is the first letter of alphebet?" ,
+                 "What is 1 + 1?" , 
+                 "Does thought require language?"];
+                 
 var answers = ["a", 2, "probably"];
 var questionsAsked = 0
 var questionsWrong = 0
@@ -101,7 +104,7 @@ function gameScore(){
 
 	if (questionsAsked >= questions.length){
 
-	document.getElementById("checkAnswer").innerHTML = ("Out of  " + questionsAsked + ", you got " + (questionsAsked - questionsWrong) + " correct.")
+	document.getElementById("checkAnswer").innerHTML = ("You got  " + (questionsAsked - questionsWrong) + " out of " + questionsAsked + " correct.")
 	document.getElementById("score").innerHTML = " Your score is " + (Math.floor(((questionsAsked - questionsWrong) / questionsAsked) * 100)) + "%"
 
 	document.getElementsByClassName("question")[0].style.display = "none"
