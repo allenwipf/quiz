@@ -22,7 +22,7 @@ button {
 
     background-color: #F7BE7F; 
     color: white;
-    padding: 5px 10px;
+    padding: 10px 15px;
     border: none;
     font-size: 16px;
     border-radius: 8px;
@@ -33,6 +33,7 @@ button {
 	padding: 10px 10px;
 	font-size: 12px;
 	background-color: #F4F7F7;
+
 }
 
 p {

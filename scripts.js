@@ -17,8 +17,8 @@ window.addEventListener("load", function () {
 
 })
 
-var questions = ["first letter of alphebet" , "last letter of alphebet", "What is 1 + 1"];
-var answers = ["a","z", 2];
+var questions = ["What is the first letter of alphebet?" , "What is 1 + 1?" , "Does thought require language?"];
+var answers = ["a", 2, "probably"];
 var questionsAsked = 0
 var questionsWrong = 0 
    
