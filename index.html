@@ -8,28 +8,30 @@
 </head>
 
 <body>
+<button id="start">Restart Game</button>
 
-<button id="restart">Restart Game</button>
-<button id="start">Next Question</button>
-<p id="qnumber">0</p>
+<form class="question" style="display: block">
 
-<h1 id="ask">Here goes the question</h1>
+	<h1 id="ask">Click "Restart Game" to begin quiz!</h1>
 
+	<div class="submission" style="display: none">
 
-<form class="question">
-	<div class="answer">
-	     <input type="text" class="input"><br>
+		<div class="answer">
+		     <input type="text" class="input"><br>
+		</div>
+		<br>
+		<div>
+			<input class="submit" type="submit" value="Submit">
+		</div>
+
 	</div>
-	<div>
-		<input type="submit" value="Submit">
-	</div>
+
+	<h3 id="checkAnswer"></h3>
+	<h3 id="score"><h3>
+	<p>Question:</p>
+	<p id="qnumber">0</p>
+
 </form>
-
-<h3 id="checkAnswer"></h3>
-
-
-</div>
-
 
 </body>
 </html>

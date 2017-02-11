@@ -2,4 +2,33 @@ body {
 
 	font-size: 15px;
 	text-align: center;
+	font-family: "bradley Hand";
+}
+
+button {
+    background-color: white; /* Green */
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    border: solid black;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.submit {
+
+    background-color: #F7BE7F; 
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.input {
+
+	padding: 10px 10px;
+	font-size: 12px;
+	background-color: #F4F7F7;
 }
