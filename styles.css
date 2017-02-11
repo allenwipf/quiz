@@ -3,6 +3,7 @@ body {
 	font-size: 15px;
 	text-align: center;
 	font-family: "bradley Hand";
+    
 }
 
 button {
@@ -47,3 +48,12 @@ h2 {
     padding: 0px;
     margin: 0px;
 }
+
+#score, #checkAnswer {
+
+    color: #F7BE7F;
+}
+
+
+
+
